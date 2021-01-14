@@ -1,0 +1,46 @@
+body {
+    background-image: url(./images/download.jfif);
+    background-repeat: 1;
+    background-size: 100%;
+}
+h1 {
+    color: pink;
+    border-style: solid;
+    background-color: gray;
+    border-color: gray;
+    border-width: 5px;
+}
+    
+img {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-radius: 45px;
+    background-color: #00ccff;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+  }
+  
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+  }
